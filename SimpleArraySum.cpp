@@ -5,7 +5,10 @@ int simpleArraySum(vector<int> ar)
     for (int n : ar)
     {
         result += n;
-    }    
+    }
+    
+    // lambda sample
+    //for_each(ar.begin(), ar.end(), [&](const int& n) { result += n; });
     
     return result;
 }
