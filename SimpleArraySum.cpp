@@ -8,7 +8,7 @@ int simpleArraySum(vector<int> ar)
     }
     
     // lambda sample
-    //for_each(ar.begin(), ar.end(), [&](const int& n) { result += n; });
+    //for_each(ar.cbegin(), ar.cend(), [&](const int& n) { result += n; });
     
     return result;
 }
